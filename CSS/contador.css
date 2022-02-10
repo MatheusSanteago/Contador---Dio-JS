@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+  
+    
+}
+
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
+    font-weight: bold;
+    
+    background-size: 800px 800px;
+    background-image: url(https://thumbs.dreamstime.com/b/two-colour-multi-hexagonal-line-pattern-seamless-repeat-background-could-be-used-background-pattern-white-light-blue-multi-115123202.jpg);
+}
+button {
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(81, 88, 97, 0.5);
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 25px;
+    
+}
+button:hover {
+    cursor: pointer;
+    
+}
